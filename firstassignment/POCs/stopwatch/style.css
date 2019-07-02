@@ -1,0 +1,45 @@
+/* ****CSS ATTRIBUTES FOR INITIAL INTERFACE **** */
+
+html, body {
+	font-family: Arial, sans serif;
+	font-size: 2em;
+	color: #000000;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 100%;
+	background-color: #1277c9;
+	cursor: no-drop;
+}
+
+
+h1 { text-align: center; color: aliceblue; 
+font-family: "Blenda Script Regular", 'decorative', sans-serif; 
+font-size: 2.1em; 
+margin: 0 auto; 
+padding: 15px; }
+
+button { margin: 0 auto; display: inline-block; width: 30%; 
+border-radius: 10px; border: none; 
+padding: 10px 20px; color: aliceblue; 
+text-align: center;
+font-size: 25px;
+background-color: #d6a844; }
+
+
+button:hover {
+  background-color: green;
+}
+title {
+	font-weight: bold;
+	color: #000066;
+	float: left;
+}
+
+
+
+
+
+
+
+

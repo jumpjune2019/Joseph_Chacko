@@ -1,0 +1,89 @@
+<!--Main Quiz Page-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Quiz Game</title>
+		<link rel='stylesheet' href='css/reset.css' />
+		<link rel='stylesheet' href='css/app.css'/>
+		<script type='text/javascript' src='js/framework.js'></script>
+		<script type='text/javascript' src="js/app.js"></script>
+		<script>
+		
+		</script>
+	
+	</head>
+	<body onload="init()">
+		<div id='container'>
+			<div id='middle'>
+				<div id='innerContainer'>
+					<div id='content'>
+						<div class='header'>
+							<div class='header_row'>
+								<div id='title'></div>
+								<div id='elapsedTime'>00:00:00</div>
+							</div>
+							<div class='clearfix'></div>						
+							<div class='headerRow'>
+								<div class='headerLeft'>
+									<div id='score'>Score Message Center</div>
+									<button id='undo'>Undo</button>
+									<div id='results' >   </div>
+								</div>
+								<div class='headerRight'>
+									<button id="controlButton" state="play" onclick="oncontrolButtonClick()">Play</button>
+								</div>
+							</div>
+							<div class='clearfix'></div>						
+						</div>
+						<div id="gameArea">
+							<div id="termsContainer">
+								<div class='termWidget' draggable="true" unselectable="on" id='termWidget0' ondragstart="dragstart(event)" linkid='1'>
+									
+								</div>
+								<div class='termWidget' draggable="true" unselectable="on" id='termWidget1' ondragstart="dragstart(event)" linkid='2'>
+									
+								</div>
+								<div class='termWidget' draggable="true" unselectable="on" id='termWidget2' ondragstart='dragstart(event)' linkid='3'>
+									
+								</div>
+								<div class='termWidget' draggable="true" unselectable="on" id='termWidget3' ondragstart="dragstart(event)" linkid='4'>
+									
+								</div>
+								<div class='termWidget' draggable="true" unselectable="on" id='termWidget4' ondragstart="dragstart(event)" linkid='5'>
+									
+								</div></div>
+							<div id="definitionsContainer">
+								<div class='definitionWidget' unselectable="off" id='definitionWidget1' expectedLinkId='1' droppedLinkId='0'>
+									<div class='droppedTerm' unselectable="off" ondrop="drop(event)" ondragover="dragover(event)" id="droppedTerm0"></div>
+									<div class='definitionText' unselectable="on" id='definitionTextVal0'></div>
+									<div class='clearfix_no_margin'></div>
+								</div>
+								<div class='definitionWidget' unselectable="off" id='definitionWidget2' expectedLinkId='2' droppedLinkId='0'>
+									<div class='droppedTerm' unselectable="off" ondrop="drop(event)" ondragover="dragover(event)" id="droppedTerm1"></div>
+									<div class='definitionText' unselectable="on"  id='definitionTextVal1'></div>
+									<div class='clearfix_no_margin'></div>
+								</div>
+								<div class='definitionWidget' unselectable="off" id='definitionWidget3' expectedLinkId='3' droppedLinkId='0'>
+									<div class='droppedTerm' unselectable="off" ondrop='drop(event)' ondragover='dragover(event)' id="droppedTerm2"></div>
+									<div class='definitionText' unselectable="on"  id='definitionTextVal2'></div>
+									<div class='clearfix_no_margin'></div>
+								</div>
+								<div class='definitionWidget' unselectable="off" id='definitionWidget4' expectedLinkId='4' droppedLinkId='0'>
+									<div class='droppedTerm' unselectable="off" ondrop="drop(event);" ondragover="dragover(event);" id="droppedTerm3"></div>
+									<div class='definitionText'  id='definitionTextVal3'></div>
+									<div class='clearfix_no_margin'></div>
+								</div>
+								<div class='definitionWidget' unselectable="off" id='definitionWidget5' expectedLinkId='5' droppedLinkId='0'>
+									<div class='droppedTerm' unselectable="off" ondrop="drop(event)" ondragover="dragover(event)" id="droppedTerm4"></div>
+									<div class='definitionText' unselectable="off"  id='definitionTextVal4'></div>
+									<div class='clearfix_no_margin'></div>						
+								</div>
+							</div>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

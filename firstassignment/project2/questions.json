@@ -1,0 +1,48 @@
+{
+	"quiz": [
+		{
+			"question": "API",
+			"answer": "Application Programming Interface"
+		},
+		{
+			"question": "CMS",
+			"answer": "Content Management System"
+		},
+		{
+			"question": "DNS",
+			"answer": "Domain Name Service"
+		},
+		{
+			"question": "FTP",
+			"answer": "File Transfer Protocol"
+		},
+		{
+			"question": "ISP",
+			"answer": "Internet Service Provider"
+		}
+		,
+		{
+			"question": "LAN",
+			"answer": "Local Area Network"
+		}
+		,
+		{
+			"question": "SEM",
+			"answer": "Search Engine Marketing"
+		}
+		,
+		{
+			"question": "SEO",
+			"answer": "Search Engine Optimization"
+		}
+		,
+		{
+			"question": "UI",
+			"answer": "User Interface"
+		},
+		{
+			"question": "UX",
+			"answer": "User Experience"
+		}
+	]
+}
